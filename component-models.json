@@ -184,17 +184,17 @@
     "fields": [
       {
         "component": "text",
-        "name": "employee_name",
+        "name": "employeeName",
         "label": "employee Name"
       },
       {
         "component": "text",
-        "name": "job_title",
+        "name": "jobTitle",
         "label": "Job Title"
       },
       {
         "component": "reference",
-        "name": "profile_image",
+        "name": "profileImage",
         "label": "Profile Image"
       },
       {
