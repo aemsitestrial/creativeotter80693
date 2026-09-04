@@ -22,17 +22,17 @@
       "fields": [
         {
           "component": "text",
-          "name": "employeeName",
+          "name": "employee_name",
           "label": "employee Name"
         },
         {
           "component": "text",
-          "name": "jobTitle",
+          "name": "job_title",
           "label": "Job Title"
         },
         {
           "component": "reference",
-          "name": "profileImage",
+          "name": "profile_image",
           "label": "Profile Image"
         },
         {
