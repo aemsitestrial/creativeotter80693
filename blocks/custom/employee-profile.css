@@ -5,8 +5,8 @@
   border: 1px solid #dcdcdc;
   border-radius: 12px;
   text-align: center;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  background: #ffffff;
+  box-shadow: 0 2px 10px rgb(0 0 0 / 10%);
+  background: #fff;
 }
 
 .employee-profile-image {
