@@ -51,7 +51,16 @@
         "cards",
         "columns",
         "fragment",
+        "employee-profile",
         "custom"
+      ]
+    },
+
+     {
+      "id": "restricted-section",
+      "components": [
+        "title",
+        "hero"
       ]
     }
   ]

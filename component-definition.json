@@ -128,6 +128,21 @@
           }
         },
         {
+          "title": "Employee Profile",
+          "id": "employee-profile",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Employee Profile",
+                  "model": "employee-profile"
+                }
+              }
+            }
+          }
+        },
+        {
           "title": "Fragment",
           "id": "fragment",
           "plugins": {

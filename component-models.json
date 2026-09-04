@@ -180,6 +180,36 @@
     ]
   },
   {
+    "id": "employee-profile",
+    "fields": [
+      {
+        "component": "text",
+        "name": "employeeName",
+        "label": "employee Name"
+      },
+      {
+        "component": "text",
+        "name": "jobTitle",
+        "label": "Job Title"
+      },
+      {
+        "component": "text",
+        "name": "experience",
+        "label": "Years of Experience"
+      },
+      {
+        "component": "reference",
+        "name": "profileImage",
+        "label": "Profile Image"
+      },
+      {
+        "component": "richtext",
+        "name": "description",
+        "label": "Description"
+      }
+    ]
+  },
+  {
     "id": "fragment",
     "fields": [
       {

@@ -15,7 +15,15 @@
       "hero",
       "cards",
       "columns",
-      "fragment"
+      "fragment",
+      "employee-profile"
+    ]
+  },
+  {
+    "id": "restricted-section",
+    "components": [
+      "title",
+      "hero"
     ]
   },
   {
@@ -38,5 +46,9 @@
       "button",
       "title"
     ]
+  },
+  {
+    "id": "employee-profile",
+    "components": []
   }
 ]
