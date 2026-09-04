@@ -30,11 +30,6 @@
           "name": "jobTitle",
           "label": "Job Title"
         },
-       {
-          "component": "text",
-          "name": "experience",
-          "label": "Years of Experience"
-        },
         {
           "component": "reference",
           "name": "profileImage",
@@ -47,5 +42,11 @@
         }
       ]
     }
-  ]
+  ],
+  "filters": [
+  {
+    "id": "employee-profile",
+    "components": []
+  }
+]
 }

@@ -193,11 +193,6 @@
         "label": "Job Title"
       },
       {
-        "component": "text",
-        "name": "experience",
-        "label": "Years of Experience"
-      },
-      {
         "component": "reference",
         "name": "profileImage",
         "label": "Profile Image"
