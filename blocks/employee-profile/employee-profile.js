@@ -1,19 +1,24 @@
 export default function decorate(block) {
   const rows = [...block.children];
 
-  if (rows.length < 5) {
+  if (rows.length < 4) {
     return;
   }
 
-  const image = rows[0]?.textContent?.trim();
-  const name = rows[1]?.textContent?.trim();
-  const title = rows[2]?.textContent?.trim();
-  const experience = rows[3]?.textContent?.trim();
-  const description = rows[4]?.textContent?.trim();
+  const name = rows[0]?.textContent?.trim();
+  const title = rows[1]?.textContent?.trim();
+  const imageCell = rows[2];
+  const descriptionCell = rows[3];
+
+  const picture = imageCell?.querySelector('picture');
+  const img = picture?.querySelector('img');
+  if (img) {
+    img.classList.add('employee-profile-image');
+  }
 
   block.innerHTML = `
     <div class="employee-profile-card">
-      ${image}
+      ${picture ? picture.outerHTML : ''}
 
       <h2 class="employee-profile-name">
         ${name}
@@ -23,13 +28,9 @@ export default function decorate(block) {
         ${title}
       </h3>
 
-      <p class="employee-profile-experience">
-        ${experience}
-      </p>
-
-      <p class="employee-profile-description">
-        ${description}
-      </p>
+      <div class="employee-profile-description">
+        ${descriptionCell ? descriptionCell.innerHTML : ''}
+      </div>
     </div>
   `;
 }

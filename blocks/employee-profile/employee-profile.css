@@ -30,13 +30,19 @@
   margin-bottom: 8px;
 }
 
-.employee-profile-experience {
-  font-weight: 600;
-  color: #555;
-  margin-bottom: 12px;
-}
-
 .employee-profile-description {
   color: #666;
   line-height: 1.5;
+  text-align: left;
+}
+
+.employee-profile-description h4 {
+  font-size: 16px;
+  color: #222;
+  margin-bottom: 8px;
+}
+
+.employee-profile-description ul {
+  margin: 0;
+  padding-left: 20px;
 }
